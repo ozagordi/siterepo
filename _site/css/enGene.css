@@ -1,0 +1,228 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    /* height: 250px;*/
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#car_slide_1{
+    background: #E74C3C;
+}
+
+#car_slide_2{
+    background: #033D5C;
+}
+
+#main-logo {
+    text-align: center;
+    
+}
+#main-logo_inner {
+    	max-width: 100%;
+}
+
+/* Navbar */
+#navbar_logo {
+    vertical-align: middle;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.navbar-default {
+   
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #E74C3C;
+}
+
+
+.navbar-default .nav li a {
+    color: white;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #E74C3C;
+}
+
+/* Call to Action colored bar*/
+.call-to-action {
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background: #e5e5e5;
+}
+.call-to-action .btn {
+    margin: 10px;
+}
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: #E74C3C;
+}
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: #033D5C;
+}
+
+
+
+/* Page Content */
+#introduction_cell
+{
+border-bottom: 1px solid #eeeeee;
+padding-bottom: 30px;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+
+#spinoff_logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+/* Experiment */
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 140px;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #fff;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 0.7;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #033D5C;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+#portfolio * {
+    z-index: 2;
+}
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+
+
+
+/* Footer Styles
+
+footer {
+    margin: 50px 0;
+}*/
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
