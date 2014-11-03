@@ -11,19 +11,20 @@
 		data analysis, data science">
     <meta name="author" content="">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-        
+
     <link rel="icon" type="image/png" href="images/favicon.ico">
 
     <!-- Bootstrap Core CSS -->
-    <!--link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"-->
-    <link rel="stylesheet" href="{{ "/siterepo/bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="{{ "bootstrap/css/bootstrap.min.css" | prepend: site.baseurl }}"-->
 	
     <!-- Custom CSS -->
-    <!--link href="css/enGene.css" rel="stylesheet"-->
-    <link rel="stylesheet" href="{{ "/siterepo/css/enGene.css" | prepend: site.baseurl }}">
+    <link href="{{ site.baseurl }}/css/enGene.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="{{ "css/enGene.css" | prepend: site.baseurl }}"-->
 
     <!-- Custom Fonts -->
-    <link href="{{ "/siterepo/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+	<link href="{{ site.baseurl }}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!--link href="{{ "font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css"-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
