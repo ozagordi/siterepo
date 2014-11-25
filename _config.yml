@@ -2,4 +2,7 @@
 title: enGene
 name: enGene Statistics website 
 highlighter: true
+<<<<<<< HEAD
 baseurl: /siterepo
+=======
+>>>>>>> FETCH_HEAD
