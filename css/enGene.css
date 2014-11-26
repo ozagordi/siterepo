@@ -4,6 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* Font */
+@import url(http://fonts.googleapis.com/css?family=Gafata|Noto+Serif);
+/* @import url(http://fonts.googleapis.com/css?family=Istok+Web|Oswald); */
+
+h1, h2, h3, h4 {
+	font-family: 'Gatafa', sans-serif;
+}
+
+
+
+
+
 /* Global Styles */
 
 html,
@@ -61,8 +73,9 @@ header.carousel .fill {
 /* Navbar */
 #navbar_logo {
     vertical-align: middle;
-    margin-top: -10px;
+    margin-top: -7px;
     margin-right: 10px;
+    height: 30px;
 }
 
 .navbar-default {
@@ -86,19 +99,25 @@ header.carousel .fill {
 .navbar-default .nav li a:focus {
     color: #E74C3C;
 }
+.navbar-default .dropdown .dropdown-menu
+{
+    background: black;
+}
 
 /* Call to Action colored bar*/
 .call-to-action {
     padding: 10px 0;
+    color: #fff;
     margin-top: 50px;
     margin-bottom: 10px;
-    background: #e5e5e5;
+    background: #E74C3C; /*#e5e5e5*/
 }
 .call-to-action .btn {
     margin: 10px;
 }
 .btn-dark {
     border-radius: 0;
+    border-color: #fff;
     color: #fff;
     background-color: #E74C3C;
 }
@@ -125,6 +144,20 @@ margin-bottom: 40px;
     width: 150px;
     margin-top: 20px;
 }
+
+/* News page */
+
+#twitterbox {
+    min-height: 150px;
+    vertical-align: text-top;
+}
+
+#linksbox {
+    min-height: 150px;
+    vertical-align: text-top;
+}
+/* About */
+
 
 /* Experiment */
 
