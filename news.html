@@ -11,6 +11,13 @@ permalink: /news/
 	<div class="col-md-8">
 		<h3>Blog</h3>
 		<hr class="featurette-divider">
+		<ul>
+		  {% for post in site.posts %}
+		    <li>
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    </li>
+		  {% endfor %}
+		</ul>
 		<h4>Post 1</h4>
 		<h4 class="text-muted">
 			<p class="text-justify">
