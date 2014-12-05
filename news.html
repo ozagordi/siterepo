@@ -14,24 +14,13 @@ permalink: /news/
 		<ul>
 		  {% for post in site.posts %}
 		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
+		      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	  		<h4 class="text-muted">
 		      {{ post.excerpt }}
+		  </h4>
 		    </li>
 		  {% endfor %}
 		</ul>
-		<h4>Post 1</h4>
-		<h4 class="text-muted">
-			<p class="text-justify">
-				unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
-			</p>
-		</h4>
-            
-		<h4>Post 2</h4>
-		<h4 class="text-muted">
-			<p class="text-justify">
-				unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur,
-			</p>
-		</h4>
 	</div>
 
 	<!-- Twitter/Links Column -->
