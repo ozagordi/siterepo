@@ -3,7 +3,9 @@ layout: post
 title: Opinionating
 ---
 _If the blog hasn't been updated in two weeks, then the blogger is dead_,
-says an old internet rule. We will be trying to follow a slightly relaxed
+says an old internet rule.
+
+We will be trying to follow a slightly relaxed
 version of the above rule, so a one month old post won't mean that we shut down.
 
 These pages will contain informal opinions on recent advances of technologies,
